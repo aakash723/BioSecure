@@ -5,7 +5,7 @@ import numpy as np
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Load the known image and train the face recognizer
-image_path = "C:\\Users\\KIIT0001\\Desktop\\my_projects\\sec_face_cam\\employees\\bit-256-x-256-Grayscale-Lena-Image.png"
+image_path = "C:\\Users\\KIIT0001\\Desktop\\my_projects\\sec_face_cam\\employees\\img22-03-24.jpg"
 known_face = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
 # If face recognition should be based on the grayscale image, we need to set the label and ID
